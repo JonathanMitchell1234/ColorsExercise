@@ -1,0 +1,74 @@
+/* Color Name */
+h1 {
+    color:thistle;
+}
+
+/* Note: CSS Styles can be orveridden (whichever style comes last in the CSS file will be applied */
+
+h1 {
+    color:chocolate;
+}
+
+/* Hexadecimal */
+/* A Hexadecimal number/character goes from zero to the letter F */
+/* 0123456789ABCDEF */
+/* # + 6 hexadecimal numbers and characters */
+/* Example #09BE23 */
+
+/* First two determine the amount of red, the second two determine the amount of green, the third/last determine the amount of blue */
+
+/* Hexadecimal colors work as if they are light not paints */
+/* #FFFFFF would be white */
+/* #000000 would be black */
+
+/* Example 1 */
+
+h1 {
+    color: #00ff00;
+}
+
+h1 {
+  color: #0000FF 
+}
+
+/* Shorthand way to write a hexidecimal color (first two must match, as well as the second two, etc.) */
+
+h1 {
+    color:black;
+    color: #000;
+
+}
+
+/* Transparancy with Hex Colors */
+/* An extra two numbers and characters can be used to determine transparancy. the lower the numbers or characters are the more transparent they will be */
+
+/* Full Transparent/Invisible */
+h1{
+    color:#dfdf5500;
+}
+/* Not Transparent at All */
+h1 {
+    color: #0000ffff;
+}
+
+/* Shorthand example using transparency */
+color: #00ff;
+
+/* RGB (RED GREEN BLUE) */
+/* RGB Has 3 Channels/positions */
+/* Example: rgb(0, 14 255) */
+/* Each Channel goes from 0-255 */
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+/* RGBA (Red, Green, Blue, Alpha */
+/* Alpha Determines the Transparancy  */
+/* Alpha goes from 0-1 */
+/* Example: rgba (12, 54, 154, 0.7) */
+
+/* Setting the alpha channel or position to zero will make the element full transparent. Setting it to 1 will make it not */
+h1 {
+    color: rgba (0, 0, 255, 0.5);
+}
